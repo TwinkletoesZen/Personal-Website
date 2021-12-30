@@ -1,0 +1,15 @@
+.mainNav{
+
+/* -------------------------------------------Flex------------------------------------*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+/* -------------------------------------------Flex------------------------------------*/
+  
+ 
+
+
+}
+
