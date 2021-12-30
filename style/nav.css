@@ -3,14 +3,17 @@
 /* -------------------------------------------Flex------------------------------------*/
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center;
 /* -------------------------------------------Flex------------------------------------*/
   
-  background-color: teal;
+  /* background-color: white; */
 
   max-height: 10vh;
+
+  /* position: sticky;
+  top: 0; */
 }
 
 
@@ -27,6 +30,7 @@
 
 .mainNavLogo{
   height: 10vh;
+  padding-left: 1vw;
 }
 
 
@@ -45,20 +49,22 @@
 }
 
 .mainNavUl li{
-  padding: 1vh 4vh;
+  padding: 1vh 4vw;
   
 
 }
 
 .mainNav a{
   text-decoration: none;
-  color: aqua;
+  color: white;
+  text-shadow: 3px 3px black;
   font-size: 2vw;
   padding: 0;
 }
 
 .mainNav a:hover{
-  color: white;
+  color: black;
+  text-shadow: 3px 3px white;
   font-size: 3.5vh;
 
 }

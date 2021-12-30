@@ -3,3 +3,11 @@ body{
 
 
 }
+
+#background-image{
+  background-image: url("/img/IMG_0931.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+
+}
