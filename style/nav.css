@@ -10,10 +10,13 @@
   
   /* background-color: white; */
 
-  max-height: 10vh;
+  /* max-height: 10vh; */
 
   /* position: sticky;
   top: 0; */
+
+  
+
 }
 
 
@@ -57,14 +60,28 @@
 .mainNav a{
   text-decoration: none;
   color: white;
-  text-shadow: 3px 3px black;
-  font-size: 2vw;
+  /* text-shadow: 3px 3px black; */
+
+  text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+
+
+  font-size: 3vh;
   padding: 0;
 }
 
 .mainNav a:hover{
-  color: black;
-  text-shadow: 3px 3px white;
+  /* color: black;
+  text-shadow: 3px 3px white; */
   font-size: 3.5vh;
 
 }
+
+

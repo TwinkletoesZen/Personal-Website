@@ -6,6 +6,12 @@
 
   margin-top: 15vh;
 
+
+  /* background-image: url("/img/IMG_0931.JPG");
+  background-size: cover;
+  background-repeat: no-repeat; */
+
+
 }
 
 
@@ -38,6 +44,12 @@
 
 }
 
+.responsive{
+
+}
+
+
+
 #home-text{
   padding-left: 5vw;
 
@@ -46,33 +58,35 @@
   text-align: center;
   
   color: white;
-  text-shadow: 5px 5px black;
+  text-shadow:
+    0.05em 0 black,
+    0 0.05em black,
+    -0.05em 0 black,
+    0 -0.05em black,
+    -0.05em -0.05em black,
+    -0.05em 0.05em black,
+    0.05em -0.05em black,
+    0.05em 0.05em black;
+}
+
+#home-text h1{
+  
+  padding: 0;
   
 
 }
 
-#home-text h1{
-
-  background-color: black;
-  padding: 0;
-
-
-}
-
 #home-text hr{
-  height: 1vh;
-  background-color: black;
+  height: 4px;
+  background-color: white;
   border-radius: 10px;
-
-  text-shadow: 10px 10px white;
-
-
-
+  border-color: black;
+  border-width: 0.2vw;
 
 }
 
 #home-text p{
-  background-color: black;
+
 
 
 }
@@ -85,8 +99,8 @@
   font-size: 2.5vh;
   color: black;
   
-  padding: 4vh 4vw;
-  margin-top: 5vh;
+  padding: 3vh 3vw;
+  margin-top: 3vh;
 
   border: 0;
   border-radius: 1vh;
@@ -101,7 +115,7 @@
   background-color: black;
   color: white;
 
-  padding: 4.5vh 4.5vw;
+  padding: 3.3vh 3.3vw;
   font-size: 3vh;
 
 }
