@@ -1,0 +1,22 @@
+.fwh-slide{
+  height: 100vh;
+  /* background: grey; */
+  box-sizing: border-box;
+
+}
+
+.fwh-slide--1{
+
+}
+
+.fwh-slide--2{
+  /* background-color: blue; */
+  
+
+
+}
+
+.fwh-slide h1{
+  margin: 0;
+
+}
