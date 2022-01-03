@@ -48,10 +48,22 @@
 
 }
 
+#shadowBox{
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: rgba(128, 128, 128, 0.5);
+  /* padding-right: 5vh; */
+  margin-left: 5vh;
+  padding: 2vw;
+
+
+  /* opacity: 0.2; */
+}
 
 
 #home-text{
-  padding-left: 5vw;
+  /* padding-left: 5vw; */
 
   font-size: 5vh;
 
@@ -67,6 +79,9 @@
     -0.05em 0.05em black,
     0.05em -0.05em black,
     0.05em 0.05em black;
+  /* opacity: 1; */
+
+  
 }
 
 #home-text h1{
