@@ -13,10 +13,65 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  /* flex-wrap: wrap; */
 
   margin-top: auto;
 
 }
+
+#Read-More-Page h1{
+  font-size: 4vw;
+
+}
+#Read-More-Page h2{
+  font-size: 1.5vw;
+
+}
+#Read-More-Page li{
+  font-size: 1.1vw;
+
+}
+#Read-More-Page p{
+  font-size: 1.1vw;
+
+}
+
+
+.mainTitleSecondPage{
+  text-align: center;
+
+
+
+}
+
+
+
+#mainParagraph{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  
+
+  /* text-align: center; */
+
+}
+
+.Left-Side{
+  margin: 0 5vw;
+  width: 20vw;
+
+
+}
+
+.Right-Side{
+  margin: 0 5vw;
+  width: 20vw;
+
+}
+
 
 #footer{
 
