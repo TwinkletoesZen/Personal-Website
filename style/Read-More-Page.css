@@ -1,0 +1,36 @@
+#secondPage{
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+
+}
+
+#Read-More-Page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  margin-top: auto;
+
+}
+
+#footer{
+
+ 
+
+  /* align-self: flex-end; */
+  width: 100%;
+  text-align: center;
+
+  margin-top: auto;
+
+  background-color: white;
+
+  
+  
+
+}
